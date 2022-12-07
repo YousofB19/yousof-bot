@@ -22,7 +22,7 @@ export function resetRaffleRoles(msg: Message) {
             resetRole(msg, raffleBRole);
             botReply.edit('Cleared all raffle roles.');
           } else {
-            newMessage.reply('Abandoned operation');
+            newMessage.reply('Abandoned operation.');
           }
         } else {
           newMessage?.reply('Invalid reply.');
